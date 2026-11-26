@@ -37,8 +37,19 @@ In questa fase servono soprattutto: casi d'uso delle scuole, analisi di Android 
 
 ## Repository
 
-| Repository | Contenuto |
+Ogni modulo ha un **proprio repository**, così che chiunque possa prenderne in carico uno in modo indipendente (sul modello di OpenWISP). Il core è **indipendente dalla piattaforma**: Android è il primo agente, altre piattaforme potranno aggiungersi. Tutti i moduli sono in fase di progettazione.
+
+| Area | Repository |
 |---|---|
+| 📖 Progetto | [docs](https://github.com/EduWISP/docs) · [.github](https://github.com/EduWISP/.github) |
+| 🧱 Base | [eduwisp-utils](https://github.com/EduWISP/eduwisp-utils) · [eduwisp-users](https://github.com/EduWISP/eduwisp-users) · [eduwisp-audit](https://github.com/EduWISP/eduwisp-audit) |
+| 🏫 Moduli | [eduwisp-school](https://github.com/EduWISP/eduwisp-school) · [eduwisp-devices](https://github.com/EduWISP/eduwisp-devices) · [eduwisp-apps](https://github.com/EduWISP/eduwisp-apps) · [eduwisp-policy](https://github.com/EduWISP/eduwisp-policy) · [eduwisp-family](https://github.com/EduWISP/eduwisp-family) · [eduwisp-wellbeing](https://github.com/EduWISP/eduwisp-wellbeing) |
+| 📱 Dispositivi | [eduwisp-protocol](https://github.com/EduWISP/eduwisp-protocol) · [eduwisp-android-dpc](https://github.com/EduWISP/eduwisp-android-dpc) |
+| 🚀 Installazione | [ansible-eduwisp](https://github.com/EduWISP/ansible-eduwisp) · [docker-eduwisp](https://github.com/EduWISP/docker-eduwisp) |
+
+Vuoi occuparti di un modulo? [Proponiti in Discussions](https://github.com/EduWISP/docs/discussions).
+
+---|---|
 | [docs](https://github.com/EduWISP/docs) | Documentazione di progetto, requisiti e decisioni (ADR) |
 
 Ogni modulo avrà un **proprio repository**, così che chiunque possa prenderne in carico uno in modo indipendente (sul modello di OpenWISP). I repository dei moduli (`eduwisp-users`, `eduwisp-devices`, `eduwisp-policy`, `eduwisp-family`, `eduwisp-android-dpc`, …) verranno creati all'avvio dello sviluppo: vedi la [mappa dei repository](https://eduwisp.github.io/docs/architettura/repository/). Vuoi occuparti di un modulo? [Proponiti in Discussions](https://github.com/EduWISP/docs/discussions).
