@@ -34,6 +34,24 @@ EduWISP riguarda **minori**. Non inserire **mai** in issue, discussioni, pull re
 - Mantieni gli identificativi dei requisiti (`RF-`, `RNF-`, `RC-`): non riutilizzare un ID eliminato.
 - Gli ADR accettati non si modificano: si sostituiscono con un nuovo ADR.
 
+## DCO
+
+Ogni commit deve avere il **Developer Certificate of Origin** ([DCO](https://developercertificate.org/)): con la riga `Signed-off-by` dichiari di avere il diritto di inviare il contributo con la licenza del progetto. Basta usare:
+
+```bash
+git commit -s -m "Descrizione della modifica"
+```
+
+Un controllo automatico verifica il DCO in ogni pull request.
+
+## Licenze
+
+- **Codice:** AGPL-3.0-or-later con termini aggiuntivi di attribuzione e tutela del nome (vedi `NOTICE.md` in ogni repository).
+- **Documentazione e testi:** CC BY-SA 4.0.
+- **Nome e logo EduWISP:** esclusi dalle licenze aperte ([politica del marchio](https://eduwisp.github.io/docs/progetto/marchio/)).
+
+Inviando un contributo accetti che venga distribuito con queste licenze. Il copyright resta tuo.
+
 ## Lingue
 
 Puoi scrivere in italiano o in inglese.
@@ -42,4 +60,4 @@ Puoi scrivere in italiano o in inglese.
 
 ### English summary
 
-EduWISP is in the design phase; code contributions are not open yet. **Never share real personal data** of students, families or staff — use fictional examples only. Use Discussions for ideas, the issue templates for requirements, Android checks, privacy/security concerns and documentation. Italian is the authoritative documentation language; please update or flag the English version (`docs/_en/`) when changing Italian pages. Report vulnerabilities privately as described in [SECURITY.md](SECURITY.md). You may write in Italian or English.
+EduWISP is in the design phase; code contributions are not open yet. **Never share real personal data** of students, families or staff — use fictional examples only. Use Discussions for ideas, the issue templates for requirements, Android checks, privacy/security concerns and documentation. Italian is the authoritative documentation language; please update or flag the English version (`docs/_en/`) when changing Italian pages. Every commit needs a DCO sign-off (`git commit -s`). Code is AGPL-3.0-or-later with additional attribution and trademark terms; docs are CC BY-SA 4.0; the EduWISP name and logo are not openly licensed. Report vulnerabilities privately as described in [SECURITY.md](SECURITY.md). You may write in Italian or English.

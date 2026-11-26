@@ -6,6 +6,7 @@ Chiude / Closes #
 
 ## Checklist
 
+- [ ] Ogni commit ha il DCO (`git commit -s`). / Every commit is signed off.
 - [ ] Nessun dato personale reale (studenti, famiglie, personale). / No real personal data.
 - [ ] Se ho modificato una pagina italiana, ho aggiornato `docs/_en/` oppure ho aggiunto l'etichetta `traduzione`. / English version updated or labelled.
 - [ ] Gli ID dei requisiti esistenti non sono stati riutilizzati o rinumerati. / Requirement IDs preserved.

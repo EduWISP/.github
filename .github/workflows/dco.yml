@@ -1,0 +1,36 @@
+# Workflow riutilizzabile: verifica che ogni commit di una pull request abbia il Developer Certificate of Origin.
+# Reusable workflow: checks that every commit in a pull request carries a DCO sign-off.
+name: DCO
+
+on:
+  workflow_call:
+
+permissions:
+  contents: read
+
+jobs:
+  dco:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.head.sha }}
+      - name: Verifica Signed-off-by
+        env:
+          BASE: ${{ github.event.pull_request.base.sha }}
+          HEAD: ${{ github.event.pull_request.head.sha }}
+        run: |
+          missing=0
+          for c in $(git rev-list --no-merges "$BASE..$HEAD"); do
+            author_email=$(git show -s --format='%ae' "$c")
+            if ! git show -s --format='%B' "$c" | grep -qiE "^Signed-off-by: .+ <${author_email}>$"; then
+              echo "::error::Commit $c senza 'Signed-off-by' corrispondente all'autore ($author_email). Usa: git commit -s"
+              missing=1
+            fi
+          done
+          if [ "$missing" -ne 0 ]; then
+            echo "Vedi https://github.com/EduWISP/.github/blob/main/CONTRIBUTING.md#dco"
+            exit 1
+          fi
+          echo "Tutti i commit hanno il DCO."
