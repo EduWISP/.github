@@ -24,6 +24,7 @@ EduWISP vuole offrire alle scuole uno strumento aperto, modulare e indipendente 
 | 👪 **Famiglia** | Regole aggiuntive per l'uso domestico, senza poter scavalcare sicurezza e didattica |
 | 🛡️ **Tutela** | Segnalazione e gestione del cyberbullismo, senza sorveglianza degli studenti |
 | ⚖️ **Conformità** | GDPR e normativa italiana su privacy e minori come vincolo bloccante |
+| 🆓 **Libero** | Solo software open source e gratuito: dove serve un servizio proprietario, costruiamo l'alternativa |
 | ☁️ **Hosting** | Cloud-first ma sempre self-hostable, server di riferimento Debian 13 |
 
 ## Partecipa
