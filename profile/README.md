@@ -1,7 +1,14 @@
-# EduWISP
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EduWISP/.github/main/branding/eduwisp-logo-dark.svg">
+    <img src="https://raw.githubusercontent.com/EduWISP/.github/main/branding/eduwisp-logo.svg" alt="EduWISP" height="90">
+  </picture>
+</p>
 
-**Piattaforma open source per la gestione dei dispositivi Android scolastici**
-*Open-source platform for managing school-owned Android devices*
+<p align="center">
+  <b>Piattaforma open source per la gestione dei dispositivi Android scolastici</b><br>
+  <i>Open-source platform for managing school-owned Android devices</i>
+</p>
 
 EduWISP vuole offrire alle scuole uno strumento aperto, modulare e indipendente per gestire i tablet Android usati nella didattica. Unisce **MDM**, **gestione scolastica**, **Family Control** e strumenti di **prevenzione del cyberbullismo**, ispirandosi alla filosofia di [OpenWISP](https://openwisp.org/).
 
