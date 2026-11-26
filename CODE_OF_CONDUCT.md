@@ -30,7 +30,7 @@ Il codice vale in tutti gli spazi del progetto (repository, issue, discussioni, 
 
 ## Segnalazioni
 
-Le violazioni possono essere segnalate in modo riservato agli owner dell'organizzazione EduWISP. Tutte le segnalazioni vengono esaminate con tempestività e riservatezza, nel rispetto di chi segnala.
+Le violazioni possono essere segnalate in modo riservato al responsabile del progetto, Michele Salerno ([@mikysal78](https://github.com/mikysal78)). Tutte le segnalazioni vengono esaminate con tempestività e riservatezza, nel rispetto di chi segnala.
 
 ## Conseguenze
 
@@ -48,6 +48,6 @@ We are committed to a harassment-free experience for everyone. Because EduWISP c
 
 Be respectful, give constructive criticism of ideas rather than people, and keep the interests of students at the centre. Harassment, insults, sexualised content, personal attacks, publishing others' private information and **sharing real personal data of minors** are not acceptable.
 
-This code applies in all project spaces and when representing EduWISP. Violations can be reported confidentially to the owners of the EduWISP organisation. Maintainers may remove content, warn, suspend or ban, proportionally to the severity.
+This code applies in all project spaces and when representing EduWISP. Violations can be reported confidentially to the project lead, Michele Salerno ([@mikysal78](https://github.com/mikysal78)). Maintainers may remove content, warn, suspend or ban, proportionally to the severity.
 
 Adapted from the [Contributor Covenant](https://www.contributor-covenant.org/), version 2.1.
