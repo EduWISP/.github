@@ -8,6 +8,10 @@ Grazie per l'interesse! In questa fase EduWISP è dedicato alla **progettazione 
 
 EduWISP riguarda **minori**. Non inserire **mai** in issue, discussioni, pull request, screenshot o allegati dati personali reali di studenti, famiglie o personale scolastico (nomi, classi, foto, numeri di serie associati a persone, segnalazioni reali). Usa solo esempi fittizi. I contenuti che violano questa regola vengono rimossi.
 
+## Da dove iniziare
+
+Cerca le [buone prime issue](https://github.com/search?q=org%3AEduWISP+label%3A%22good+first+issue%22+state%3Aopen&type=issues) (etichetta `good first issue`) in tutti i repository: sono compiti piccoli, ben descritti e adatti alla fase di progettazione. Commenta la issue per fartela assegnare.
+
 ## Dove contribuire
 
 | Cosa | Dove |

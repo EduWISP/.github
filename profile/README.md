@@ -31,6 +31,7 @@ EduWISP vuole offrire alle scuole uno strumento aperto, modulare e indipendente 
 
 In questa fase servono soprattutto: casi d'uso delle scuole, analisi di Android Enterprise, revisione legale e privacy (DPO, giuristi), revisione della documentazione e traduzioni.
 
+- 🌱 [Buone prime issue](https://github.com/search?q=org%3AEduWISP+label%3A%22good+first+issue%22+state%3Aopen&type=issues): compiti adatti a chi inizia, in tutti i repository
 - 💬 [Discussions](https://github.com/EduWISP/docs/discussions): idee e domande
 - 📝 [Issue](https://github.com/EduWISP/docs/issues/new/choose): requisiti, verifiche Android, privacy
 - 🤝 [Come contribuire](https://github.com/EduWISP/.github/blob/main/CONTRIBUTING.md) · [Codice di condotta](https://github.com/EduWISP/.github/blob/main/CODE_OF_CONDUCT.md)
