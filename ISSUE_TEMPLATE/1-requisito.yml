@@ -1,0 +1,50 @@
+name: 📋 Requisito / Requirement
+description: Proponi un nuovo requisito o la modifica di uno esistente. / Propose a new or changed requirement.
+title: "[Requisito] "
+labels: ["requisito", "da discutere"]
+body:
+  - type: input
+    id: id
+    attributes:
+      label: ID esistente (se modifica) / Existing ID (if change)
+      placeholder: es. RF-021
+  - type: dropdown
+    id: modulo
+    attributes:
+      label: Modulo / Module
+      options: [Core, Gestione scolastica, MDM, Android, Application Management, Policy Engine, Family Control, Cyberbullismo, Audit, Sicurezza/Privacy, Deployment, Altro]
+    validations:
+      required: true
+  - type: dropdown
+    id: stakeholder
+    attributes:
+      label: Chi ne ha bisogno / Stakeholder
+      multiple: true
+      options: [Studente, Docente, Famiglia, Dirigente, Amministratore IT, Referente cyberbullismo, DPO, Fornitore/hosting]
+  - type: textarea
+    id: descrizione
+    attributes:
+      label: Requisito / Requirement
+      description: Cosa deve fare il sistema, in modo verificabile. / What the system must do, verifiably.
+    validations:
+      required: true
+  - type: textarea
+    id: motivazione
+    attributes:
+      label: Motivazione / Rationale
+    validations:
+      required: true
+  - type: textarea
+    id: privacy
+    attributes:
+      label: Impatto privacy e normativo / Privacy and legal impact
+      description: Quali dati tratta? Quale base giuridica? Rischi per i minori? / Which data? Legal basis? Risks for minors?
+    validations:
+      required: true
+  - type: checkboxes
+    id: dati
+    attributes:
+      label: Dati personali / Personal data
+      options:
+        - label: Confermo di non aver inserito dati personali reali di studenti, famiglie o personale. / I confirm I have not included real personal data.
+          required: true

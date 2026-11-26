@@ -1,0 +1,35 @@
+name: ⚖️ Privacy e sicurezza / Privacy and security
+description: Segnala un rischio privacy, legale o di sicurezza nella progettazione. / Report a design-level privacy, legal or security risk.
+title: "[Privacy] "
+labels: ["privacy", "da discutere"]
+body:
+  - type: markdown
+    attributes:
+      value: "⚠️ Per **vulnerabilità** in software rilasciato usa la segnalazione privata (vedi SECURITY.md). / For vulnerabilities use private reporting."
+  - type: textarea
+    id: rischio
+    attributes:
+      label: Rischio / Risk
+      description: Cosa potrebbe andare storto, e per chi? / What could go wrong, and for whom?
+    validations:
+      required: true
+  - type: textarea
+    id: norme
+    attributes:
+      label: Norme coinvolte / Applicable law
+      description: es. GDPR art. 8, L. 71/2017, AI Act, Statuto dei lavoratori art. 4
+  - type: textarea
+    id: mitigazione
+    attributes:
+      label: Mitigazione proposta / Proposed mitigation
+  - type: input
+    id: pagine
+    attributes:
+      label: Pagine o requisiti interessati / Affected pages or requirements
+  - type: checkboxes
+    id: dati
+    attributes:
+      label: Dati personali / Personal data
+      options:
+        - label: Confermo di non aver inserito dati personali reali di studenti, famiglie o personale. / I confirm I have not included real personal data.
+          required: true

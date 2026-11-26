@@ -1,0 +1,32 @@
+name: 📖 Documentazione / Documentation
+description: Errori, parti poco chiare o traduzioni mancanti. / Errors, unclear parts or missing translations.
+title: "[Docs] "
+labels: ["documentazione"]
+body:
+  - type: input
+    id: pagina
+    attributes:
+      label: Pagina / Page
+      placeholder: URL o percorso del file
+    validations:
+      required: true
+  - type: dropdown
+    id: tipo
+    attributes:
+      label: Tipo / Type
+      options: [Errore / Error, Poco chiaro / Unclear, Mancante / Missing, Traduzione / Translation]
+    validations:
+      required: true
+  - type: textarea
+    id: descrizione
+    attributes:
+      label: Descrizione / Description
+    validations:
+      required: true
+  - type: checkboxes
+    id: dati
+    attributes:
+      label: Dati personali / Personal data
+      options:
+        - label: Confermo di non aver inserito dati personali reali di studenti, famiglie o personale. / I confirm I have not included real personal data.
+          required: true

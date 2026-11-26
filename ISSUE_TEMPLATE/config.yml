@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 Idee e domande / Ideas and questions
+    url: https://github.com/EduWISP/docs/discussions
+    about: Per discussioni aperte usa Discussions. / Use Discussions for open conversations.
+  - name: 📖 Documentazione / Documentation
+    url: https://eduwisp.github.io/docs/
+    about: Leggi la documentazione prima di aprire una issue. / Read the docs first.
+  - name: 🔒 Vulnerabilità / Vulnerability
+    url: https://github.com/EduWISP/.github/blob/main/SECURITY.md
+    about: Non segnalare vulnerabilità in pubblico. / Do not report vulnerabilities publicly.

@@ -1,0 +1,46 @@
+name: 🤖 Verifica Android / Android check
+description: Riporta l'esito della verifica di una funzione Android. / Report the result of checking an Android feature.
+title: "[Android] "
+labels: ["verifica android"]
+body:
+  - type: input
+    id: funzione
+    attributes:
+      label: Funzione / Feature
+      placeholder: es. Provisioning tramite QR code
+    validations:
+      required: true
+  - type: dropdown
+    id: esito
+    attributes:
+      label: Esito / Result
+      options: [✅ Supportata, 🟡 Parziale, ❌ Non supportata, 🏭 Dipende da produttore/versione, ❔ Non conclusivo]
+    validations:
+      required: true
+  - type: input
+    id: dispositivo
+    attributes:
+      label: Dispositivo e versione Android / Device and Android version
+  - type: input
+    id: modalita
+    attributes:
+      label: Modalità di gestione e provider / Management mode and provider
+      placeholder: es. Fully Managed, Android Management API
+  - type: textarea
+    id: fonti
+    attributes:
+      label: Fonti ufficiali / Official sources
+      description: Link alla documentazione consultata. / Links to documentation.
+    validations:
+      required: true
+  - type: textarea
+    id: note
+    attributes:
+      label: Dettagli del test / Test details
+  - type: checkboxes
+    id: dati
+    attributes:
+      label: Dati personali / Personal data
+      options:
+        - label: Confermo di non aver inserito dati personali reali di studenti, famiglie o personale. / I confirm I have not included real personal data.
+          required: true
