@@ -41,6 +41,8 @@ In questa fase servono soprattutto: casi d'uso delle scuole, analisi di Android 
 |---|---|
 | [docs](https://github.com/EduWISP/docs) | Documentazione di progetto, requisiti e decisioni (ADR) |
 
+Ogni modulo avrà un **proprio repository**, così che chiunque possa prenderne in carico uno in modo indipendente (sul modello di OpenWISP). I repository dei moduli (`eduwisp-users`, `eduwisp-devices`, `eduwisp-policy`, `eduwisp-family`, `eduwisp-android-dpc`, …) verranno creati all'avvio dello sviluppo: vedi la [mappa dei repository](https://eduwisp.github.io/docs/architettura/repository/). Vuoi occuparti di un modulo? [Proponiti in Discussions](https://github.com/EduWISP/docs/discussions).
+
 ---
 
 *🇬🇧 EduWISP is an open-source project, currently in the design phase, to manage school-owned Android tablets with MDM, school management, family control and cyberbullying prevention, with full compliance with EU and Italian law on data protection and minors. Documentation is in Italian (default) and English.*
