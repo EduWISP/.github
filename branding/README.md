@@ -40,4 +40,4 @@ Tutti gli SVG sono vettoriali puri: il testo è convertito in tracciati e non di
 
 ## Uso
 
-Non deformare, ruotare o ricolorare il logo con colori diversi da quelli indicati. Lascia attorno al simbolo uno spazio libero pari ad almeno 1/4 della sua larghezza. Nome e logo sono **esclusi dalle licenze aperte** del progetto: il titolare è il responsabile del progetto. Vedi la [politica del marchio](https://eduwisp.github.io/docs/progetto/marchio/). Lo script `genera-logo.py` è distribuito con licenza AGPL-3.0-or-later.
+Non deformare, ruotare o ricolorare il logo con colori diversi da quelli indicati. Lascia attorno al simbolo uno spazio libero pari ad almeno 1/4 della sua larghezza. Nome e logo sono **esclusi dalle licenze aperte** del progetto: il titolare è il responsabile del progetto. Vedi la [politica del marchio](https://eduwisp.org/docs/progetto/marchio/). Lo script `genera-logo.py` è distribuito con licenza AGPL-3.0-or-later.

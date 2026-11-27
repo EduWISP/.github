@@ -4,7 +4,7 @@ contact_links:
     url: https://github.com/EduWISP/docs/discussions
     about: Per discussioni aperte usa Discussions. / Use Discussions for open conversations.
   - name: 📖 Documentazione / Documentation
-    url: https://eduwisp.github.io/docs/
+    url: https://eduwisp.org/docs/
     about: Leggi la documentazione prima di aprire una issue. / Read the docs first.
   - name: 🔒 Vulnerabilità / Vulnerability
     url: https://github.com/EduWISP/.github/blob/main/SECURITY.md

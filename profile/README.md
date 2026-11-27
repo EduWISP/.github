@@ -14,7 +14,7 @@ EduWISP vuole offrire alle scuole uno strumento aperto, modulare e indipendente 
 
 > 🚧 **Fase di progettazione.** Stiamo definendo visione, requisiti, architettura, sicurezza, privacy e governance. Lo sviluppo software non è ancora iniziato.
 
-### 📖 [Leggi la documentazione](https://eduwisp.github.io/docs/) · 🇬🇧 [English](https://eduwisp.github.io/docs/en/)
+### 📖 [Leggi la documentazione](https://eduwisp.org/docs/) · 🇬🇧 [English](https://eduwisp.org/docs/en/)
 
 ## In breve
 
@@ -53,7 +53,7 @@ Vuoi occuparti di un modulo? [Proponiti in Discussions](https://github.com/EduWI
 ---|---|
 | [docs](https://github.com/EduWISP/docs) | Documentazione di progetto, requisiti e decisioni (ADR) |
 
-Ogni modulo avrà un **proprio repository**, così che chiunque possa prenderne in carico uno in modo indipendente (sul modello di OpenWISP). I repository dei moduli (`eduwisp-users`, `eduwisp-devices`, `eduwisp-policy`, `eduwisp-family`, `eduwisp-android-dpc`, …) verranno creati all'avvio dello sviluppo: vedi la [mappa dei repository](https://eduwisp.github.io/docs/architettura/repository/). Vuoi occuparti di un modulo? [Proponiti in Discussions](https://github.com/EduWISP/docs/discussions).
+Ogni modulo avrà un **proprio repository**, così che chiunque possa prenderne in carico uno in modo indipendente (sul modello di OpenWISP). I repository dei moduli (`eduwisp-users`, `eduwisp-devices`, `eduwisp-policy`, `eduwisp-family`, `eduwisp-android-dpc`, …) verranno creati all'avvio dello sviluppo: vedi la [mappa dei repository](https://eduwisp.org/docs/architettura/repository/). Vuoi occuparti di un modulo? [Proponiti in Discussions](https://github.com/EduWISP/docs/discussions).
 
 ---
 

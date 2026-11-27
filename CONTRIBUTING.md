@@ -52,7 +52,7 @@ Un controllo automatico verifica il DCO in ogni pull request.
 
 - **Codice:** AGPL-3.0-or-later con termini aggiuntivi di attribuzione e tutela del nome (vedi `NOTICE.md` in ogni repository).
 - **Documentazione e testi:** CC BY-SA 4.0.
-- **Nome e logo EduWISP:** esclusi dalle licenze aperte ([politica del marchio](https://eduwisp.github.io/docs/progetto/marchio/)).
+- **Nome e logo EduWISP:** esclusi dalle licenze aperte ([politica del marchio](https://eduwisp.org/docs/progetto/marchio/)).
 
 Inviando un contributo accetti che venga distribuito con queste licenze. Il copyright resta tuo.
 
