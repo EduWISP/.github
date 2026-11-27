@@ -40,7 +40,7 @@ In questa fase servono soprattutto: casi d'uso delle scuole, analisi di Android 
 
 Ogni modulo ha un **proprio repository**, così che chiunque possa prenderne in carico uno in modo indipendente (sul modello di OpenWISP). Il core è **indipendente dalla piattaforma**: Android è il primo agente, altre piattaforme potranno aggiungersi.
 
-**Stato:** prototipo v0, solo con dati fittizi. Hanno già un primo codice `eduwisp-protocol`, `eduwisp-users`, `eduwisp-school`, `eduwisp-devices`, `eduwisp-android-dpc` (provato sull'emulatore) e `ansible-eduwisp`, che installa la [demo](https://demo.eduwisp.org). Gli altri moduli sono in progettazione.
+**Stato:** prototipo v0, solo con dati fittizi. Hanno già un primo codice `eduwisp-protocol`, `eduwisp-users`, `eduwisp-school`, `eduwisp-devices`, `eduwisp-android-dpc` (provato sull'emulatore) `ansible-eduwisp`, che installa la [demo](https://demo.eduwisp.org), e `ansible-eduwisp-backup` per il server di backup. Gli altri moduli sono in progettazione.
 
 | Area | Repository |
 |---|---|
@@ -48,7 +48,7 @@ Ogni modulo ha un **proprio repository**, così che chiunque possa prenderne in 
 | 🧱 Base | [eduwisp-utils](https://github.com/EduWISP/eduwisp-utils) · [eduwisp-users](https://github.com/EduWISP/eduwisp-users) · [eduwisp-audit](https://github.com/EduWISP/eduwisp-audit) |
 | 🏫 Moduli | [eduwisp-school](https://github.com/EduWISP/eduwisp-school) · [eduwisp-devices](https://github.com/EduWISP/eduwisp-devices) · [eduwisp-apps](https://github.com/EduWISP/eduwisp-apps) · [eduwisp-policy](https://github.com/EduWISP/eduwisp-policy) · [eduwisp-family](https://github.com/EduWISP/eduwisp-family) · [eduwisp-wellbeing](https://github.com/EduWISP/eduwisp-wellbeing) |
 | 📱 Dispositivi | [eduwisp-protocol](https://github.com/EduWISP/eduwisp-protocol) · [eduwisp-android-dpc](https://github.com/EduWISP/eduwisp-android-dpc) |
-| 🚀 Installazione | [ansible-eduwisp](https://github.com/EduWISP/ansible-eduwisp) · [docker-eduwisp](https://github.com/EduWISP/docker-eduwisp) |
+| 🚀 Installazione | [ansible-eduwisp](https://github.com/EduWISP/ansible-eduwisp) · [ansible-eduwisp-backup](https://github.com/EduWISP/ansible-eduwisp-backup) · [docker-eduwisp](https://github.com/EduWISP/docker-eduwisp) |
 
 Vuoi occuparti di un modulo? [Proponiti in Discussions](https://github.com/EduWISP/docs/discussions).
 
