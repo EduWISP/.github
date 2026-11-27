@@ -12,9 +12,9 @@
 
 EduWISP vuole offrire alle scuole uno strumento aperto, modulare e indipendente per gestire i tablet Android usati nella didattica. Unisce **MDM**, **gestione scolastica**, **Family Control** e strumenti di **prevenzione del cyberbullismo**, ispirandosi alla filosofia di [OpenWISP](https://openwisp.org/).
 
-> 🚧 **Fase di progettazione.** Stiamo definendo visione, requisiti, architettura, sicurezza, privacy e governance. Lo sviluppo software non è ancora iniziato.
+> 🚧 **Progettazione e primo prototipo.** Il software non è ancora pronto per le scuole. Puoi vedere l'ambiente di prova su **[demo.eduwisp.org](https://demo.eduwisp.org)** (solo dati fittizi).
 
-### 📖 [Leggi la documentazione](https://eduwisp.org/docs/) · 🇬🇧 [English](https://eduwisp.org/docs/en/)
+### 🌐 [eduwisp.org](https://eduwisp.org) · 📖 [Documentazione](https://eduwisp.org/docs/) · 🇬🇧 [English](https://eduwisp.org/docs/en/)
 
 ## In breve
 
