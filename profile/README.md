@@ -42,7 +42,7 @@ In questa fase servono soprattutto: casi d'uso delle scuole, analisi di Android 
 
 Ogni modulo ha un **proprio repository**, così che chiunque possa prenderne in carico uno in modo indipendente (sul modello di OpenWISP). Il core è **indipendente dalla piattaforma**: Android è il primo agente, altre piattaforme potranno aggiungersi.
 
-**Stato:** prototipo v0, solo con dati fittizi. Hanno già un primo codice `eduwisp-protocol`, `eduwisp-users`, `eduwisp-audit`, `eduwisp-school`, `eduwisp-devices`, `eduwisp-portal` (interfaccia per ruoli con «vedi come»), `eduwisp-android-dpc` (provato sull'emulatore) `ansible-eduwisp`, che installa la [demo](https://demo.eduwisp.org), e `ansible-eduwisp-backup` per il server di backup. Gli altri moduli sono in progettazione.
+**Stato:** prototipo v0, solo con dati fittizi. Hanno già un primo codice `eduwisp-protocol`, `eduwisp-users`, `eduwisp-audit`, `eduwisp-school`, `eduwisp-devices`, `eduwisp-portal` (interfaccia per ruoli con «vedi come»), `eduwisp-api` e l'app Android per il personale `eduwisp-app-scuola`, `eduwisp-android-dpc` (provato sull'emulatore) `ansible-eduwisp`, che installa la [demo](https://demo.eduwisp.org), e `ansible-eduwisp-backup` per il server di backup. Gli altri moduli sono in progettazione.
 
 | Area | Repository |
 |---|---|
