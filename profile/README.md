@@ -33,6 +33,8 @@ In questa fase servono soprattutto: casi d'uso delle scuole, analisi di Android 
 
 - 🌱 [Buone prime issue](https://github.com/search?q=org%3AEduWISP+label%3A%22good+first+issue%22+state%3Aopen&type=issues): compiti adatti a chi inizia, in tutti i repository
 - 💬 [Discussions](https://github.com/EduWISP/docs/discussions): idee e domande
+- ✉️ [eduwisp-sviluppo](https://groups.google.com/g/eduwisp-sviluppo): gruppo di discussione sullo sviluppo
+- 📱 [eduwisp-tester](https://groups.google.com/g/eduwisp-tester): diventa tester delle app Android (iscrizione su richiesta)
 - 📝 [Issue](https://github.com/EduWISP/docs/issues/new/choose): requisiti, verifiche Android, privacy
 - 🤝 [Come contribuire](https://github.com/EduWISP/.github/blob/main/CONTRIBUTING.md) · [Codice di condotta](https://github.com/EduWISP/.github/blob/main/CODE_OF_CONDUCT.md)
 
